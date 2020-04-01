@@ -1,13 +1,12 @@
 {
-    "name": "sanmai/cdek-sdk",
+    "name": "webwings/cdek-sdk",
     "type": "library",
-    "description": "СДЭК PHP SDK, библиотека для работы с API СДЭК",
+    "description": "CDEK PHP SDK, library for CDEK API",
     "keywords": [
         "CDEK",
         "sdk",
         "delivery",
-        "СДЭК",
-        "служба доставки"
+        "СДЭК"
     ],
     "homepage": "https://cdek-sdk.readthedocs.io/",
     "license": "MIT",
