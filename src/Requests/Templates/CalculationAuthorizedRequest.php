@@ -136,7 +136,11 @@ abstract class CalculationAuthorizedRequest implements JsonRequest, \JsonSeriali
      */
     protected $dateExecute;
 
-    /** @return self */
+    /**
+     * @param int $id
+     *
+     * @return self
+     */
     public function setSenderCityId($id)
     {
         $this->senderCityId = $id;
@@ -144,7 +148,11 @@ abstract class CalculationAuthorizedRequest implements JsonRequest, \JsonSeriali
         return $this;
     }
 
-    /** @return self */
+    /**
+     * @param int $id
+     *
+     * @return self
+     */
     public function setReceiverCityId($id)
     {
         $this->receiverCityId = $id;
@@ -152,7 +160,11 @@ abstract class CalculationAuthorizedRequest implements JsonRequest, \JsonSeriali
         return $this;
     }
 
-    /** @return self */
+    /**
+     * @param string $code
+     *
+     * @return self
+     */
     public function setSenderCityPostCode($code)
     {
         $this->senderCityPostCode = $code;
@@ -160,7 +172,11 @@ abstract class CalculationAuthorizedRequest implements JsonRequest, \JsonSeriali
         return $this;
     }
 
-    /** @return self */
+    /**
+     * @param string $code
+     *
+     * @return self
+     */
     public function setReceiverCityPostCode($code)
     {
         $this->receiverCityPostCode = $code;
